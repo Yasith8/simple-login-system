@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Log In | Sign In</title>
+</head>
+
+<body>
+    <div class="cont">
+
+        <form action="index.php" method="POST" onsubmit="returnValidation()">
+            <table>
+                <thead>
+                    <h2>Sign In</h2>
+                </thead>
+                <tbody>
+                    <tr class="row">
+                        <td>
+                            name:
+                        </td>
+                        <td colspan="2">
+                            <input type="text" id="name" name="uname">
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td>
+                            password:
+                        </td>
+                        <td colspan="2">
+                            <input type="password" id="pword" name="pword">
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td colspan="3">
+                            <input type="submit" value="submit" class="btn">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <script src="home.js"></script>
+
+</body>
+
+</html>
